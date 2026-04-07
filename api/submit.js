@@ -36,7 +36,7 @@ module.exports = async function (req, res) {
     return res.status(400).json({ error: 'Missing Name or Phone' });
   }
 
-  const BREVO_API_KEY = process.env.BREVO_API_KEY;
+  const BREVO_API_KEY = process.env.BREVO_API_KEY_NOAM;
   const PIXEL_ID = process.env.FB_PIXEL_ID || '3843866865916899'; 
   const FB_TOKEN = process.env.FB_ACCESS_TOKEN || 'EAAUvFuURnkEBQ9FhZA8vPjp6i5xfrGYGV5WGdzZBacdnoOyEVLS5vpNH6k7ZCZAtPMGd7gPMyPBo8qObUOqhRvUQUYN1Xm6f2xxcQzbSi7KTKIcrCuXY87pv4R8QZBHL39QNsKZBVOYK82IkxLlhX5iyWuZABWZCzfCd9mZAgdobi98AXdMaS3gDv1ibk5NlsBwZDZD';
 
