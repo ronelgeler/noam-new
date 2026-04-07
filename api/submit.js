@@ -25,7 +25,7 @@ module.exports = async function (req, res) {
   // 1. BREVO EMAIL
   if (BREVO_API_KEY) {
     const brevoData = {
-      sender: { name: "Noam Sapir Hadar Website", email: "ronelgeler@8689975.brevosend.com" },
+      sender: { name: "Noam Sapir Hadar Website", email: "ronelgeler@gmail.com" },
       to: [{ email: "sapirh111@gmail.com", name: "נועם ספיר הדר" }],
       subject: `ליד חדש מהאתר: ${Name}`,
       htmlContent: `<div dir="rtl"><h2>התקבלה פנייה חדשה!</h2><p><strong>שם:</strong> ${Name}</p><p><strong>טלפון:</strong> ${Phone}</p></div>`
