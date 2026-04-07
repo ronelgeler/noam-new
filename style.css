@@ -3,7 +3,7 @@
 /* HTML Resets & Base Elements */
 * { box-sizing: border-box; }
 html { height: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: sans-serif; }
-body { margin: 0; min-height: 100%; direction: rtl; color: #0c4a6e; text-align: right; font-family: 'Rubik', sans-serif; font-size: 1.3rem; line-height: 1.4; background-color: #fff; }
+body { margin: 0; min-height: 100%; direction: rtl; color: #0c4a6e; text-align: center; font-family: 'Rubik', sans-serif; font-size: 1.3rem; line-height: 1.4; background-color: #fff; }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 a { background-color: #0000; }
 a:active, a:hover { outline: 0; }
